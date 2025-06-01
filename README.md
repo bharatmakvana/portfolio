@@ -1,33 +1,77 @@
-# 🌐 Portfolio Website
+# Personal Portfolio Website 🚀
 
-This is a personal portfolio website built using **React**, **TypeScript**, and **Vite**. The site is deployed to **GitHub Pages**.
+This is a **personal portfolio website** built using [React](https://reactjs.org/), [TypeScript](https://www.typescriptlang.org/), and [Vite](https://vitejs.dev/). It showcases your work, skills, and contact information in a modern, performant way.
 
-## 🚀 Live Site
+- 🔗 **Live Site**: [https://bharatmakvana.github.io](https://bharatmakvana.github.io)  
+- 📁 **GitHub Repo**: [https://github.com/bharatmakvana/portfolio](https://github.com/bharatmakvana/portfolio)
 
-🔗 [https://bharatmakvana.github.io](https://bharatmakvana.github.io)
+---
+
+## 📸 Preview
+
+
+
+---
+
+## 🚀 Features
+
+- ⚡ Fast development with Vite
+- 💡 TypeScript support
+- 🎨 Responsive and accessible design
+- 📂 Easy-to-maintain structure
+- 🌐 Deployed on GitHub Pages
+
+---
+
+## 🧑‍💻 Tech Stack
+
+- React
+- TypeScript
+- Vite
+- CSS Modules / Tailwind (if used)
+- GitHub Pages (for deployment)
 
 ---
 
 ## 📦 Installation
 
-Clone the repository and install the dependencies:
+> Ensure you have **Node.js v23 or above** installed.
 
-```bash
-npm install
+**Clone the repository**
+   ```bash
+   git clone https://github.com/bharatmakvana/your-repo-name.git
+   cd your-repo-name
+   
+   npm install 
 
+   // or 
 
-## 🚀 Run on Local Enviornment
+   yarn install
 
-To setup/run the website on the local Enviornment
+---
 
-```bash
-npm dev | yarn dev
+## 📦 Run on Local Environment
+  ```bash
+  npm run dev
+  ```
 
+---
 
-## 🚀 Deplyment
+## 🚀 Deployment (GitHub Pages)
+  ```bash
+  npm install gh-pages --save-dev
 
-```bash
-npm install gh-pages --save-dev
+ // and finally Deploy the app using following command.
 
-```bash
-npm run deploy
+  npm run deploy
+  ```
+
+---
+
+## 📄 License
+This project is open source and available under the MIT License.
+
+---
+
+## 🙌 Acknowledgments
+Thanks to all the open-source tools and libraries that made this project possible!
