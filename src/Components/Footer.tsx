@@ -1,6 +1,5 @@
-import React from "react";
 import {Container, Row, Col} from 'react-bootstrap';
-import SocialMedia from "./Socialmedia";
+import SocialMedia from "./SocialMedia";
 
 const Footer = () => {
   const date: Date = new Date();

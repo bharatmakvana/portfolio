@@ -1,5 +1,3 @@
-import React from 'react';
-
 const SocialMedia = () => {
   return (
     <ul className="social-icons-list">

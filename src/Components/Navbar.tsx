@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Container, Navbar, Nav, Button } from 'react-bootstrap';
+import { useState } from "react";
+import { Container, Navbar, Nav} from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import {assets} from '../assets/assets';
 
@@ -32,7 +32,7 @@ const NavBar = () => {
 
         <Navbar.Toggle
           aria-controls="site-navigation"
-          onClick={() => {updateExpanded(expand ? false : "expanded");}}
+          onClick={() => {updateExpanded(expand ? false : true);}}
         >
           <span></span>
           <span></span>

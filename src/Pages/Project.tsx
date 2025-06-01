@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Projectcard from '../Components/Projectcard';
 import projects from '../data/Project';

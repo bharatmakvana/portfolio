@@ -1,16 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Preloader from './Components/Pre';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Project from './Pages/Project';
-import Resume from './Pages/Resume';
+// import Resume from './Pages/Resume';
 import Contact from './Pages/Contact';
 
 import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Navigate
+  // Navigate
 } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './Style.css';

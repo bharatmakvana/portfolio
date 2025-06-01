@@ -1,4 +1,3 @@
-import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
 import {assets} from '../assets/assets';
 import Type from "./Type";
