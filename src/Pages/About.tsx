@@ -1,6 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import {assets} from '../assets/assets';
 
 const About = () => {
 
@@ -8,37 +9,37 @@ const About = () => {
     {
       id: 1,
       name: 'HTML',
-      icon: 'html.svg'
+      icon: `${assets.htmlLogo}`
     },
     {
       id: 2,
       name: 'CSS',
-      icon: 'css.svg'
+      icon: `${assets.cssLogo}`
     },
     {
       id: 3,
       name: 'JavaScript',
-      icon: 'js.svg'
+      icon: `${assets.jsLogo}`
     },
     {
       id: 4,
       name: 'Sass',
-      icon: 'scss.svg'
+      icon: `${assets.sassLogo}`
     },
     {
       id: 4,
       name: 'React',
-      icon: 'react.svg'
+      icon: `${assets.reactLogo}`
     },
     {
       id: 5,
       name: 'Node.js',
-      icon: 'nodejs.svg'
+      icon: `${assets.nodejsLogo}`
     },
     {
       id: 6,
       name: 'Git',
-      icon: 'git.svg'
+      icon: `${assets.gitLogo}`
     },
   ]
 
@@ -46,17 +47,17 @@ const About = () => {
     {
       id: 1,
       name: 'Mac Os',
-      icon: 'mac-os.svg'
+      icon: `${assets.macOsLogo}`
     },
     {
       id: 2,
       name: 'Cursor',
-      icon: 'cursor.svg'
+      icon: `${assets.cursorLogo}`
     },
     {
       id: 3,
       name: 'VS Code',
-      icon: 'vs-code.svg'
+      icon: `${assets.vsCodeLogo}`
     },
   ]
 
@@ -79,7 +80,7 @@ const About = () => {
         <Row className='mb-5'>
           {techStack.map((tech) => (
             <Col key={tech.id} md={2} className='tech-icons col-md-2 col-4'>
-              <LazyLoadImage src={`src/assets/tech-stack/${tech.icon}`} alt={tech.name} />
+              <LazyLoadImage src={`${tech.icon}`} alt={tech.name} />
             </Col>
           ))}
         </Row>
@@ -88,7 +89,7 @@ const About = () => {
         <Row className='mb-5'>
           {tools.map((tool) => (
             <Col key={tool.id} md={2} className='tech-icons col-md-2 col-4'>
-              <LazyLoadImage src={`src/assets/tech-tools/${tool.icon}`} alt={tool.name}  title={tool.name}/>
+              <LazyLoadImage src={`${tool.icon}`} alt={tool.name}  title={tool.name}/>
             </Col>
           ))}
         </Row>
