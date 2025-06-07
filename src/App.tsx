@@ -7,7 +7,7 @@ import Project from './Pages/Project';
 import Contact from './Pages/Contact';
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Routes,
   // Navigate
